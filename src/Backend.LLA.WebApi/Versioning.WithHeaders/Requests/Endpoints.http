@@ -1,0 +1,26 @@
+### Default version request
+GET https://localhost:7194/api/users HTTP/1.1
+Host: example.com
+Accept: application/json
+
+### Version 1.0 request with Accept header
+GET https://localhost:7194/api/users HTTP/1.1
+Host: example.com
+Accept: application/json; version = 1.0
+
+### Version 1.0 request with #X-API-Version header
+GET https://localhost:7194/api/users HTTP/1.1
+Host: example.com
+Accept: application/json
+X-API-Version: 1.0
+
+### Version 2.0 request with Accept header
+GET https://localhost:7194/api/users HTTP/1.1
+Host: example.com
+Accept: application/json; version = 2.0
+
+### Version 2.0 request with #X-API-Version header
+GET https://localhost:7194/api/users HTTP/1.1
+Host: example.com
+Accept: application/json
+X-API-Version: 2.0
