@@ -1,0 +1,9 @@
+### Version 1.0 request with Url
+GET https://localhost:7062/api/v1.0/users HTTP/1.1
+Host: example.com
+Accept: application/json
+
+### Version 2.0 request with Query String
+GET https://localhost:7062/api/v2.0/Users HTTP/1.1
+Host: example.com
+Accept: application/json
