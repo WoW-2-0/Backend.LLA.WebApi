@@ -1,0 +1,14 @@
+### Default version request
+GET https://localhost:7204/api/users HTTP/1.1
+Host: example.com
+Accept: application/json
+
+### Version 1.0 request with Query String
+GET https://localhost:7204/api/users?version=1.0 HTTP/1.1
+Host: example.com
+Accept: application/json
+
+### Version 2.0 request with Query String
+GET https://localhost:7204/api/users?version=2.0 HTTP/1.1
+Host: example.com
+Accept: application/json
